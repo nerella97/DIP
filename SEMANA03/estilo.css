@@ -60,29 +60,54 @@ header nav ul li a{
     border-right: 1px solid #fff;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    transition: background 1s;/*Con la transicion, explicamos que cosas se modificaran, en una transicion, y los segundos que durara*/
+    transition: background 1s;/Con la transicion, explicamos que cosas se modificaran, en una transicion, y los segundos que durara/
 }
 
-header nav ul li a:hover{/*Se modifica cuando se pasa encima de ella con el raton*/
-    background-color: cyan;
-    
-}
-
-/*footer{
-    width: 400px;
+section{
+    width: 100%;
     height: auto;
-    margin: 0px auto 0px;
-    text-align: center;
-    font-size: 40px;
-    color: aqua;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: blueviolet;
-}*/
-/*   "*" -> a todas las etiquetas    */
-/* margin -> espacio de los margenes de los bordes hacia los demas bloques*/
-/* padding -> espacio de lo contenido del bloque (lo que esta adentro) hacia los bordes del bloque*/
-/* border: _____ ____ ____*/
+    background: peru;
+}
 
-/*_______ (primer parametro) tipo de bordeado: dashed (rayitas), solid (linea unica)*/
-/*_______ (segundo parametro) grosor de bordeado   */
-/*_______ (tercer parametro) color   */
+article{
+    width: 70%;
+    height: auto;
+    background: rgb(239, 241, 91);
+    display: inline-block;
+    padding: 15px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+hr{
+    border: dotted 1.5px #333;
+}
+
+article p{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    color: rgb(0, 187, 255);
+    text-align: justify;
+}
+
+.mifoto{
+    width: 30%;
+}
+
+article h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(55, 0, 255);
+}
+
+aside{
+    width: 30%;
+    height: auto;
+    background: #333;
+    display: inline-block;
+    padding: 15px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
