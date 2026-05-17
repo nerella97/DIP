@@ -1,0 +1,88 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/*body{
+    background-color: beige;
+}*/
+#container{
+    width: 80%;
+    height: auto;
+    border: solid 2px #999;
+    margin: auto;
+
+
+}
+#container h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: blueviolet;
+}
+#container h2{
+    font-size: 1em;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: cyan;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color:cadetblue;
+    padding-top: 20px;
+    position: relative;
+}
+
+header nav{
+    width: 100%;
+    height: auto;
+    background-color: mediumaquamarine;
+    position: absolute;
+    bottom: 0px;
+}
+
+header nav ul li{
+    width: 25%;
+    background-color: yellowgreen;
+    display: inline-block;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    display: block;
+    background-color: skyblue;
+    color: black;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border-right: 1px solid #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    transition: background 1s;/*Con la transicion, explicamos que cosas se modificaran, en una transicion, y los segundos que durara*/
+}
+
+header nav ul li a:hover{/*Se modifica cuando se pasa encima de ella con el raton*/
+    background-color: cyan;
+    
+}
+
+/*footer{
+    width: 400px;
+    height: auto;
+    margin: 0px auto 0px;
+    text-align: center;
+    font-size: 40px;
+    color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blueviolet;
+}*/
+/*   "*" -> a todas las etiquetas    */
+/* margin -> espacio de los margenes de los bordes hacia los demas bloques*/
+/* padding -> espacio de lo contenido del bloque (lo que esta adentro) hacia los bordes del bloque*/
+/* border: _____ ____ ____*/
+
+/*_______ (primer parametro) tipo de bordeado: dashed (rayitas), solid (linea unica)*/
+/*_______ (segundo parametro) grosor de bordeado   */
+/*_______ (tercer parametro) color   */
