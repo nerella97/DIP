@@ -153,3 +153,8 @@ aside ul li a:hover{
     color: blue;
     transform: scale(1.1);
 }
+
+aside img{
+    width: 200px;
+    margin-top: 20px;
+}
