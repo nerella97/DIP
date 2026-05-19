@@ -60,7 +60,7 @@ header nav ul li a{
     border-right: 1px solid #fff;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    transition: background 1s;/Con la transicion, explicamos que cosas se modificaran, en una transicion, y los segundos que durara/
+    transition: background 1s;/*Con la transicion, explicamos que cosas se modificaran, en una transicion, y los segundos que durara/*
 }
 
 section{
@@ -125,5 +125,4 @@ aside ul{
     text-align: center;
     margin: auto;
     padding: 10px 0 10px 0;
-
 }
