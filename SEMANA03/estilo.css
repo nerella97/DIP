@@ -111,3 +111,19 @@ aside{
     box-sizing: border-box;
     vertical-align: top;
 }
+aside h3{
+    font-family: Georgia, 'Times New Roman', Times, serif
+    font-side: 1.5em;
+    text-align: center;
+    color:#999;
+    padding-bottom: 30px;
+}
+
+aside ul{
+    width: 90%;
+    background-color: #999;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0 10px 0;
+
+}
