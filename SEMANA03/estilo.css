@@ -176,3 +176,15 @@ footer h6{
     color: aqua;
 }
 
+/* Diseño responsivo */
+
+@media screen and (max-width: 768px) {
+    header nav ul li {
+        width: 100%;
+        display: block;
+    }
+    article, aside {
+        width: 100%;
+        display: block;
+    }
+}
