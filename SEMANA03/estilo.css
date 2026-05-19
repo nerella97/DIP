@@ -145,5 +145,10 @@ aside ul li a{
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
+}
 
+aside ul li a:hover{
+    background-color: #333;
+    color: blue;
+    transform: scale(1.1);
 }
