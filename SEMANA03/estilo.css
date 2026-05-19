@@ -126,3 +126,17 @@ aside ul{
     margin: auto;
     padding: 10px 0 10px 0;
 }
+
+aside ul li{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px; 
+}
+
+aside ul li a{
+    text-decoration: none;
+    display: block;
+    width: 90%;
+    height: auto;
+    padding: 15px 0 15px 0
+}
