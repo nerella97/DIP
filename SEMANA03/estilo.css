@@ -145,6 +145,7 @@ aside ul li a{
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
+    transition: all 1s;
 }
 
 aside ul li a:hover{
