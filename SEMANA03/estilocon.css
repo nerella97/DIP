@@ -1,17 +1,18 @@
 @charset "utf-8";
 
+
 form{
     width: 60%;
     height: auto;
-    background:skyblue;
-    margin:20px auto;
+    background: skyblue;
+    margin: 20px auto;
     padding: 20px;
 }
 
 label{
     display: block;
-    margin-bottom: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 0.9em;
     color: black;
 }
@@ -19,15 +20,22 @@ label{
 input{
     width: 60%;
     height: 20px;
-    background: grey;
+    background: rgb(220, 211, 211);
     border: none;
-    color: aquamarine;
+    color: rgb(102, 13, 96);
 }
+
 textarea{
     width: 60%;
     height: 70px;
     background: grey;
     border: none;
-}    
+}
 
-
+#boton{
+    width: 30%;
+    height: 25px;
+    background: salmon;
+    display: block;
+    color: blueviolet;
+}

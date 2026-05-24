@@ -6,58 +6,60 @@
     <title>Contactos</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="estilocon.css">
-</head>
 
+</head>
 <body>
     <div id="container">
         <header>
-            <h1>Contactanos</h1>
-            <h2>Tecsup@gmail.com</h2>
-            <nav>
+            <h1> Contactanos</h1>
+            <h2>Tecsup@gmal.com</h2>
+             <nav>
                 <ul>
                     <li><a href="indice.html">Indice</a></li><!--
                     --><li><a href="nosotros.html">Nosotros</a></li><!--
                     --><li><a href="servicios.html">Servicios</a></li><!--
-                    --><li><a href="contactos.html">Contactos</a></li>
+                    --><li><a href="contactos.html">Contactenos</a></li>
                 </ul>
             </nav>
         </header>
         <section>
             <h1>Dejenos sus datos</h1>
-            <form action="" method="post">
+            <form action method="post">
                 <label for="lnombre">Nombre:</label>
                 <input type="text" name="Nombre">
-                <label for="lfnac">F/Nacimiento:</label>
-                <input type="date" name="fnac">         
-                <label>Elija estado civil:</label>
+                <label for="lfnac">F/Nacimiento</label>
+                <input type="date" name="fnac"> 
+                <label for="lestado">Elija estado civil</label>
                 <select name="estado" id="ecivil">
                     <option value="S">S</option>
                     <option value="C">C</option>
                     <option value="V">V</option>
-                    <option value="D">D</option>
+                    <option value="D">D</option>                    
                 </select>
                 <label for="lsexo">Sexo</label>
-                <select name="sexo" id="sexo" size="2" multiple>
-                    <option value="m">Masculino</option>
-                    <option value="f">Femenino</option>
+                <select name="sexo" size="2" multiple>
+                    <option value="M">Masculino</option>
+                    <option value="F">Femenino</option>
                 </select>
                 <label for="lcorreo">Correo:</label>
-                <input type="email" name="correo">
+                <input type="mail" name="correo">
                 <label for="ltelefono">Telefono:</label>
+                <input type="tel" name="telefono">
                 <label><strong>Tipo de planillas</strong></label>
                 <label for="prac"><input type="radio" id="prac" name="tplani" value="prac">Practicante</label>
                 <label for="admin"><input type="radio" id="admin" name="tplani" value="admin">Administrativo</label>
                 <label for="obre"><input type="radio" id="obre" name="tplani" value="obre">Obrero</label>
-                 <label for="gerent"><input type="radio" id="gerent" name="tplani" value="gerent">Gerente</label>
-                <label for="mensaje">Mensaje:</label>
+                <label for="gerent"><input type="radio" id="gerent" name="tplani" value="gerent">Gerente</label>
+                <label for="mensaje">Mensaje</label>
                 <textarea name="mensaje" placeholder="Ingrese su mensaje"></textarea>
                 <input id="boton" type="submit" value="Enviar">
             </form>
         </section>
         <footer>
-            <h6>Todos los derechos reservados.</h6>
+            <h6>Todos los derechos reservados</h6>
         </footer>
     </div>
-
 </body>
 </html>
+
+
