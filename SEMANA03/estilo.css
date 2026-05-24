@@ -192,3 +192,10 @@ footer h6{
         display: block;
     }
 }
+#boton{
+    width: 30%;
+    height: 25px;
+    background: salmon;
+    display: block;
+    color: blueviolet;
+}
